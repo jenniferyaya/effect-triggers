@@ -35,7 +35,13 @@ div {
 
   background-color: limegreen;
   opacity: 0;
+  transition: all 200ms linear;
 }
+
+.is-clicked {
+  opacity: 1;
+}
+
 
 .diamond {
   height: 80px;
@@ -45,6 +51,11 @@ div {
 
   background-color: hotpink;
   transform: rotate(45deg);
+  transition: all 200ms linear;
+}
+
+.is-move {
+  right: 100px;
 }
 
 .panel {
@@ -58,12 +69,18 @@ div {
 
   color: darkgoldenrod;
   text-align: center;
+  transition: all 200ms linear;
+}
+
+.is-collapsed {
+  height: 0;
 }
 
 .panel h2 {
   margin: 0;
   padding: 3rem 0;
 }
+
 
 .circle {
   height: 100px;
@@ -73,6 +90,9 @@ div {
   background-color: orange;
   border-radius: 50%;
 }
+
+.
+
 
 .list {
   bottom: 1em;
