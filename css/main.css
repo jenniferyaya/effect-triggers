@@ -91,8 +91,29 @@ div {
   border-radius: 50%;
 }
 
-.
+.is-bounce {
+  animation: bounce 1s both;
+}
 
+@keyframes bounce {
+  0% {
+    right: -100px;
+    top: 10px;
+  }
+  25% {
+    top: 40px;
+  }
+  45% {
+    top: 20px;
+  }
+  65% {
+    top: 10px;
+  }
+  100%{
+    right: 100px;
+    top: 20px;
+  }
+}
 
 .list {
   bottom: 1em;
@@ -118,4 +139,14 @@ div {
   overflow: hidden;
 
   color: mediumpurple;
+  animation: slide .2s forwards ease;
+}
+
+@keyframes slide {
+  0% {
+    max-height: 0;
+  }
+  100% {
+    max-height: 1rem;
+  }
 }

@@ -12,5 +12,9 @@ $('.btn-collapse-expand').on('click', function (e) {
 });
 
 $('.btn-bounce').on('click', function (e) {
-  $('.circle').toggleClass('.is-bounce');
+  $('.circle').toggleClass('is-bounce');
+});
+
+$('.btn-append').on('click', function (e) {
+  $('.list').append('<li>New List Item</li>');
 });
