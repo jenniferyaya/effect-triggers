@@ -72,7 +72,7 @@ div {
 }
 
 .is-collapsed {
-  height: 0;
+  max-height: 0;
 }
 
 .panel h2 {
