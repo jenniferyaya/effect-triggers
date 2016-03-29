@@ -42,7 +42,6 @@ div {
   opacity: 1;
 }
 
-
 .diamond {
   height: 80px;
   right: -100px;
@@ -81,7 +80,6 @@ div {
   padding: 3rem 0;
 }
 
-
 .circle {
   height: 100px;
   top: calc(50% - 50px);
@@ -96,20 +94,25 @@ div {
 }
 
 @keyframes bounce {
+
   0% {
     right: -100px;
     top: 10px;
   }
+
   25% {
     top: 40px;
   }
+
   45% {
     top: 20px;
   }
+
   65% {
     top: 10px;
   }
-  100%{
+
+  100% {
     right: 100px;
     top: 20px;
   }
@@ -143,9 +146,11 @@ div {
 }
 
 @keyframes slide {
+
   0% {
     max-height: 0;
   }
+
   100% {
     max-height: 1rem;
   }
